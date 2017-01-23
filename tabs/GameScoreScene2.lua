@@ -1,14 +1,14 @@
-GameScoreScene = class()
+GameScoreScene2 = class()
 
-function GameScoreScene:init(x)
+function GameScoreScene2:init(x)
     -- you can accept and set parameters here
     self.x = x
 end
 
-function GameScoreScene:draw()
+function GameScoreScene2:draw()
     -- Codea does not automatically call this method
 end
 
-function GameScoreScene:touched(touch)
+function GameScoreScene2:touched(touch)
     -- Codea does not automatically call this method
 end

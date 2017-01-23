@@ -33,13 +33,13 @@ end
 function AchievmentsScene:draw()
     -- Codea does not automatically call this method
     
-    sprite("Dropbox:Opening Background", WIDTH/2, HEIGHT/2, WIDTH, HEIGHT)
+    background(0, 0, 0, 255)
     --sprite("Project:Blue Move Scene Forward Button", WIDTH/18.9, HEIGHT/10, 100)
     --sprite("Project:Blue Settings Button", WIDTH/18.9, HEIGHT/10, 100)
     --sprite("Project:shopImage", WIDTH/18.9/ HEIGHT/10, 100)
     --sprite("Project:Star Filled", WIDTH/9.4 HEIGHT/9, 100) 
     backButton:draw()
-    fill(0, 0, 0, 255)
+    fill(255, 0, 0, 255)
     fontSize(60)
     font("AmericanTypewriter")
     text("Achievement", WIDTH/2, HEIGHT/1.1)

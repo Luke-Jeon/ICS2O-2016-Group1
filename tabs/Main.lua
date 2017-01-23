@@ -14,6 +14,8 @@ DEBUG_GAMECENTER = true
 
 -- Global variables to the entire project
 
+candy = 0
+
 -- local variables to this scene
 
 
@@ -45,6 +47,10 @@ function setup()
     Scene("credits" , CreditsScene)
     Scene("help1" , Help1Scene)
     Scene("help2" , Help2Scene)
+    Scene("gameScoreScene1", GameScoreScene1)
+    Scene("gameScoreScene2", GameScoreScene2)
+    Scene("gameScoreScene3", GameScoreScene3)
+    Scene("gameCenterLogin", GameCenterLoginScene)
     
     Scene.Change("companyLogoScene")
 end

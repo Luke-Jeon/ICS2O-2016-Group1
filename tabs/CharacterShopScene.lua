@@ -33,7 +33,7 @@ end
 function CharacterShopScene:draw()
     -- Codea does not automatically call this method
     
-    sprite("Dropbox:Opening Background", WIDTH/2, HEIGHT/2, WIDTH, HEIGHT)
+    background(218, 11, 11, 255)
     --sprite("Project:Blue Move Scene Forward Button", WIDTH/18.9, HEIGHT/10, 100)
     --sprite("Project:Blue Settings Button", WIDTH/18.9, HEIGHT/10, 100)
     --sprite("Project:shopImage", WIDTH/18.9/ HEIGHT/10, 100)
